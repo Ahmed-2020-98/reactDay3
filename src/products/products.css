@@ -1,0 +1,24 @@
+/* <h1 className="n">{product.title}</h1>
+                <img src={`https://image.tmdb.org/t/p/w500/${product.backdrop_path}`} /> */
+
+.n{
+    color: black;
+    text-decoration: none
+}
+.cart{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+}
+.item{
+    width: 70%;
+}
+.item p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.item img{
+    width: 100%;
+}
